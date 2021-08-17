@@ -29,7 +29,7 @@ export default function CharacterPreview({
       <div className="image">
         <img src={image} alt={`${name} photo`} />
       </div>
-      <div className="dob">
+      <div className="dob start">
         {start_date && (
           <>
             <p className="head">START DATE</p>
@@ -46,7 +46,7 @@ export default function CharacterPreview({
           </>
         )}
       </div>
-      <div className="dob">
+      <div className="dob end">
         {end_date && (
           <>
             <p className="head">START DATE</p>
